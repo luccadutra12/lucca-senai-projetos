@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja de Eletrônicos</title>
+</head>
+<body>
+
+    <h1>Loja de Eletrônicos</h1>
+
+    <!-- Escolha do produto -->
+    <label>Escolha o produto:</label>
+    <select id="produto">
+        <option value="mouse">Mouse</option>
+        <option value="teclado">Teclado</option>
+        <option value="fone">Fone</option>
+        <option value="celular">Celular</option>
+        <option value="carregador">Carregador</option>
+    </select>
+
+    <br><br>
+
+    <!-- Quantidade -->
+    <label>Quantidade:</label>
+    <input type="number" id="quantidade" placeholder="Digite a quantidade">
+
+    <br><br>
+
+    <!-- Botão -->
+    <button onclick="calcularTotal()">Calcular Total</button>
+
+    <br><br>
+
+    <!-- Resultado -->
+    <p id="resultado"></p>
+
+    <!-- Ligação com o JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
